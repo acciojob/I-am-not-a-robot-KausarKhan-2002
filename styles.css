@@ -38,3 +38,8 @@ p {
 button {
   margin: 20px;
 }
+
+ #buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
