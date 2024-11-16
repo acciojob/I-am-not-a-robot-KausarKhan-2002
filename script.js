@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Assign classes to images dynamically
     mainContainer.innerHTML = "";
     shuffledImages.forEach((imgClass, index) => {
-      const div = document.createElement("div");
-      div.className = `${imgClass} img`;
-      div.dataset.index = index; // To track image clicks
-      mainContainer.appendChild(div);
+      const img = document.createElement("img");
+      img.className = `${imgClass} img`;
+      img.dataset.index = index; // To track image clicks
+      mainContainer.appendChild(img);
     });
   }
 
