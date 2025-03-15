@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!resetButton) {
       resetButton = document.createElement("button");
       resetButton.id = "reset";
-      resetButton.textContent = "Reset";
+      resetButton.textContent = "reset";
       resetButton.addEventListener("click", resetState);
       buttonContainer.appendChild(resetButton)
     //   document.body.appendChild(resetButton);
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!verifyButton) {
         verifyButton = document.createElement("button");
         verifyButton.id = "verify";
-        verifyButton.textContent = "Verify";
+        verifyButton.textContent = "verify";
         verifyButton.addEventListener("click", verifySelection);
         // document.body.appendChild(verifyButton);
         buttonContainer.appendChild(verifyButton)
